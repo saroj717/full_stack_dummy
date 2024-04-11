@@ -76,12 +76,6 @@ module.exports = function (api) {
         {
           async: false
         }
-      ],
-      [
-        {
-          "presets": ["@babel/preset-env", "@babel/preset-react"],
-          "plugins": ["@babel/plugin-proposal-private-property-in-object"]
-        }
       ]
     ].filter(Boolean)
   }
